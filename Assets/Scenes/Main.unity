@@ -418,6 +418,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f78b096b427d419f9918e4ae4fc4aec, type: 3}
+--- !u!1 &421404783 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100006, guid: ef19220e105b9244ca69938e98d127c4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1376588027}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &421404785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421404783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65b0885aba2563e42a2998f0ce454cbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 5810756707770798448, guid: ac5b4fad2d6183f43af69402fe418855,
+    type: 3}
+  launchPosition: {fileID: 962992106}
 --- !u!1 &443937562
 GameObject:
   m_ObjectHideFlags: 0
@@ -771,6 +792,36 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 868880967}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &962992105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 962992106}
+  m_Layer: 0
+  m_Name: Launcher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &962992106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962992105}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: -0, z: 0.011}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1624511975}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &973105409
 GameObject:
   m_ObjectHideFlags: 0
@@ -1000,6 +1051,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1354786905}
+  - component: {fileID: 1354786906}
   m_Layer: 0
   m_Name: CameraMount
   m_TagString: Untagged
@@ -1022,6 +1074,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1354786906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354786904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddfb1a8d42719304982aeff60eb37967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  followTarget: {fileID: 1101181136}
+  moveSpeed: 20
 --- !u!1001 &1376588027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1306,6 +1372,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1624511975 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400066, guid: ef19220e105b9244ca69938e98d127c4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1376588027}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1788360097
 GameObject:
   m_ObjectHideFlags: 0
