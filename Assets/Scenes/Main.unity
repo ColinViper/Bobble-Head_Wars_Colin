@@ -1425,6 +1425,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BobbleMarine-Body
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: ef19220e105b9244ca69938e98d127c4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b98978d3cc0259d419b9909328a15e1d, type: 2}
     - target: {fileID: 400006, guid: ef19220e105b9244ca69938e98d127c4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1469,10 +1473,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: ef19220e105b9244ca69938e98d127c4, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: b98978d3cc0259d419b9909328a15e1d, type: 2}
     - target: {fileID: 100032, guid: ef19220e105b9244ca69938e98d127c4, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
