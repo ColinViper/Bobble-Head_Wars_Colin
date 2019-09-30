@@ -7,8 +7,10 @@ public class Alien : MonoBehaviour
 {
 
     public Transform target;
-    private NavMeshAgent agent;    public float navigationUpdate;
-    private float navigationTime = 0;
+    private NavMeshAgent agent;
+    public float navigationUpdate;
+    private float navigationTime = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,5 +34,7 @@ public class Alien : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
+
+        SoundManager.Instance.PlayOneShot(SoundManager.Instance.alienDeath);
     }
 }
