@@ -6,10 +6,10 @@ public class Gun : MonoBehaviour
 {
     public GameObject bulletPrefab;
     public Transform launchPosition;
+    private AudioSource audioSource;
     public bool isUpgraded;
     public float upgradeTime = 10.0f;
     private float currentTime;
-    private AudioSource audioSource;
 
     void fireBullet()
     {
