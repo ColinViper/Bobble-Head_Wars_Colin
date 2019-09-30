@@ -866,20 +866,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 413776023}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &497173193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!95 &497173193 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 7f78b096b427d419f9918e4ae4fc4aec,
+    type: 3}
+  m_PrefabInstance: {fileID: 413776023}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 497173192}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61710549446197441a9cabaaac2d134c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1101181136}
-  elevator: {fileID: 246481389}
 --- !u!135 &497173194
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -893,6 +885,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1.65
   m_Center: {x: 0, y: 0.22, z: 0}
+--- !u!114 &497173195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497173192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61710549446197441a9cabaaac2d134c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1101181136}
+  elevator: {fileID: 246481389}
 --- !u!1 &506919083
 GameObject:
   m_ObjectHideFlags: 0
@@ -1400,6 +1406,7 @@ MonoBehaviour:
   gun: {fileID: 421404785}
   upgradeMaxTimeSpawn: 7.5
   deathFloor: {fileID: 1322153357}
+  arenaAnimator: {fileID: 497173193}
 --- !u!4 &1052099843
 Transform:
   m_ObjectHideFlags: 0
